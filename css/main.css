@@ -45,7 +45,6 @@ header {
     background-size: cover;
     background-position: center;
     border-top: 1rem solid hsl(165deg, 30%, 30%);
-    border: 100px solid black; 
 }
 
 #nameFull {
