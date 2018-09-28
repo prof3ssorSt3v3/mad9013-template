@@ -1,33 +1,98 @@
-*{
+* {
+    max-width: 1000px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    margin: 0.5rem;
+    margin-top: 1rem;
 }
-*::after,
-*::before{
-    box-sizing: inherit;
-}
-html{
+
+html {
+    margin: auto; 
     font-size: 16px;
-    font-family: 'web font', 'osx fallback', 'win fallback', sans-serif;
+    font-family: arial light, 'web font', 'osx fallback', 'win fallback', sans-serif;
     line-height: 1.5;
+    /*1.5 - 2.0 || 1 = 1 rem ||1rem = 16px */
 }
-header{
-    padding:1rem 2rem;
+
+nav {
+    padding: 1rem 2rem;
+    margin-bottom: 0px;
+    background-color: hsl(165deg, 75%, 75%);
+    font-size: 3rem;
+}
+
+.second {
+    text-decoration: none !important;
+    position: relative;
+    left: 75px;
+}
+
+.third {
+    text-decoration: none !important;
+    position: relative;
+    left: 150px;
+}
+
+header {
+    padding: 2.25rem 2rem;
+    margin-top: 0px;
+    box-sizing: content-box;
+    width: auto;
+    height: 350px;
     color: black;
+    background-image: url(../img/blur.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-top: 1rem solid hsl(165deg, 30%, 30%);
 }
-nav{
-    padding:1rem 2rem;
+
+#nameFull {
+    font-size: 5rem;
+    color: hsl(165deg, 75%, 35%);
+    text-shadow: 5px 5px 7px hsl(165deg, 10%, 10%);
+
 }
-main{
-    padding:1rem 2rem;
+
+#nameUser {
+    font-size: 4rem;
+    color: hsl(165deg, 60%, 50%);
+    text-shadow: 10px 10px 16px hsl(165deg, 10%, 10%);
 }
-section{
-    padding:1rem 2rem;
+
+.pHeading {
+    color: hsl(165, 15%, 30%);
+    font-size: 3rem;
 }
-aside{
-    padding:1rem 2rem;
+
+#container {
+    margin: 1rem;
+    padding: 1rem;
 }
-footer{
-    padding:1rem 2rem;
+
+main {
+    padding: 1rem 2rem;
+    font: 100 1rem/1.5 sans-serif;
+}
+
+p {
+    margin-right: 10px;
+    padding-right: 15px;
+    width: 559px;
+    height: 150px;
+}
+
+footer {
+    padding: 1rem 2rem;
+}
+
+.listHeading {
+    color: hsl(165, 15%, 30%);
+    font-size: 1.5rem;
+    line-height:1rem;
+}
+
+.list {
+    padding: 1rem 1.25rem;
+    font: 100 1rem/1.0 sans-serif;
 }
